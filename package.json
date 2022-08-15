@@ -1,0 +1,14 @@
+{
+  "name": "demo.rnd.tech.2022",
+  "version": "1.0.0",
+  "description": "demo code for RnD.tech Front-End meetup talk",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "typeomatica": "^0.2.8"
+  }
+}
