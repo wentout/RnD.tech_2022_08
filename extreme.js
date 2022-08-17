@@ -53,4 +53,30 @@ console.log('\tthirdInstance  : ', thirdInstance.myField);  // 'value re-assigne
 console.log('\n\n');
 
 
-debugger;
+
+console.log('\n\t________________________________________');
+console.log('\n \t  →  let\'s try something standard  ←');
+console.log('\t________________________________________\n\n');
+
+console.log('\tthirdInstance.myField.valueOf() : ', thirdInstance.myField.valueOf());
+console.log(`\tthirdInstance.myField + ' as'   : `, thirdInstance.myField + ' as');
+
+console.log('\n\n');
+
+
+console.log('\n\t_________________________________________');
+console.log('\n \t→  trying thirdInstance re-assignment  ←');
+console.log('\t_________________________________________\n\n\n');
+
+
+try {
+
+	thirdInstance.myField = 123;
+
+} catch (error) {
+
+	console.error(error);
+	
+}
+
+console.log('\n\n');
